@@ -18,6 +18,6 @@ app.get('/get_notifications/:username', async function(req, res) {
   res.send(result);
 })
 
-app.listen((3000),()=>{
+app.listen((5000),()=>{
   console.log("Server is Running")
 })
